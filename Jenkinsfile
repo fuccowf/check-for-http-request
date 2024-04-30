@@ -5,6 +5,7 @@ println("Content: "+response.content)
 
 if (response.status == '200') {
     echo 'Ответ был получен! Все работает!'
-}else {
-    error 'Ответ не получен!'
 }
+//else {
+//   error 'Ответ не получен!'
+//}
