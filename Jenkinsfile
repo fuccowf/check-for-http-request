@@ -1,10 +1,10 @@
 def response = httpRequest 'http://localhost:8900'
-println("Status: "+response.status)
+
+println(response.status)
 println("Content: "+response.content)
 
 if (response.status == '200') {
     echo 'Ответ был получен! Все работает!'
-} 
-else {
+}else {
     error 'Ответ не получен!'
 }
