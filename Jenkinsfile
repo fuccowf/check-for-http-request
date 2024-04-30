@@ -1,3 +1,3 @@
- def response = httpRequest 'http://localhost:8080/jenkins/api/json?pretty=true'
+ def response = httpRequest 'http://localhost:8900'
  println("Status: "+response.status)
  println("Content: "+response.content)
